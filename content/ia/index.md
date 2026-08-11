@@ -15,6 +15,7 @@ Agentes Autônomos, Model Context Protocol (MCP), RAG, SPDD e Engenharia de Prom
 - [Agent Skills](agent-skills.md) — Capacidade de adicionar habilidades específicas para Agentes de IA (AI Agents). Começou com a Anthropic mas está se tornando um padrão
 - [Agent to Agent (A2A) Protocol](agent-to-agent-a2a-protocol.md) — Anotações técnicas e referências sobre Agent to Agent (A2A) Protocol.
 - [Agentes de IA (AI Agents)](agentes-de-ia-ai-agents.md) — Sistema projetado para perceber o ambientes e ajustar o seu comportamento de acordo. Agentes podem ser prõ-ativos na tomada de decisão.
+- [🧠 Como Construir um Second Brain Moderno com IA, Zettelkasten e Agentes Autônomos](como-construir-um-second-brain-com-ia.md) — Arquitetura, governança e implementação prática de uma base de conhecimento local-first integrada a agentes de IA, busca híbrida unificada, rotina Dream Cycle e publicação com Quartz.
 - [Compactação de Contexto (IA)](compactacao-de-contexto-ia.md) — Em conversas longas o contexto da conversa pode ficar maior que a janela. Nesses casos a resposta da IA começa a ficar menos precisa e ma...
 - [Curso - Construção e Deploy de Agentes de IA (Data Science Academy - DSA)](curso-construcao-e-deploy-de-agentes-de-ia-data-science-academy-dsa.md) — Agentes de IA (AI Agents)
 - [Gemini](gemini.md) — Analyze this codebase to generate or update GEMINI.md for guiding AI coding agents. Focus on discovering the essential knowledge that wou...
