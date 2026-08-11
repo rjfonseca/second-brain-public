@@ -1,12 +1,12 @@
 ---
 type: tecnologia
-description: "https//bitfieldconsulting.com/golang/scripting"
+description: "Anotações técnicas e referências sobre Golang Scripting."
 tags:
   - notes/go
 ---
 
 # Golang Scripting
 
-https://bitfieldconsulting.com/golang/scripting
+Guia prático e links selecionados sobre **Golang Scripting**.
 
----
+- [Go for Scripting and Automation (Bitfield)](https://bitfieldconsulting.com/golang/scripting)

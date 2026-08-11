@@ -96,5 +96,3 @@ There is a linter project that checks and fixes this: [GitHub - dkorunic/bettera
 - [Structure size optimization in Golang (alignment/padding). More effective memory layout (linters).](https://itnext.io/structure-size-optimization-in-golang-alignment-padding-more-effective-memory-layout-linters-fffdcba27c61)
 - [A visual guide to Go Memory Allocator from scratch](https://medium.com/@ankur_anand/a-visual-guide-to-golang-memory-allocator-from-ground-up-e132258453ed)
 - [The Go Memory Model - The Go Programming Language](https://tip.golang.org/ref/mem)
-
----

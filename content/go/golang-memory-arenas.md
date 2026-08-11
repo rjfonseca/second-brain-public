@@ -14,5 +14,3 @@ Memory arenas allow to allocate objects from a contiguous region of memory and f
 ## Links
 
 - [Golang memory arenas {101 guide}](https://uptrace.dev/blog/golang-memory-arena.html)
-
----

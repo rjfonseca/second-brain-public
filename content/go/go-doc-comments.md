@@ -7,7 +7,7 @@ tags:
 
 # Go Doc Comments
 
+Guia prático e links selecionados sobre **Go Doc Comments**.
+
 ## Links
 - [Go Doc Comments - The Go Programming Language](https://go.dev/doc/comment)
-
----

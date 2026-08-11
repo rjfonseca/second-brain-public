@@ -5,6 +5,7 @@ tags:
   - notes/go
   - notes/boas-praticas
 ---
+
 # Boas Práticas e Tratamento de Erros em Go
 
 ## Visão Geral

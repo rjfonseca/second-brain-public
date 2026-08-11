@@ -1,6 +1,6 @@
 ---
 type: tecnologia
-description: "Google has various packages in the same repository but creates releases named <package>/<version>, like [[https//github.com/googleapis/go..."
+description: "Anotações técnicas e referências sobre Google Cloud Go Release Format."
 tags:
   - notes/go
 ---
@@ -18,5 +18,3 @@ const Repo = "20200928"
 ```
 
 So in [this example](https://github.com/googleapis/google-cloud-go/commit/9267b54da5ffd9499ddc1831d2a06b29e91373b5#diff-1041ef75e001bd17af8a1ec7a759803e) we have release `pubsub/v1.8.0` and Repo `20200928`. I'm not sure if `Repo` is important or it's just a nice-to-have for logging.
-
----

@@ -1,13 +1,13 @@
 ---
 type: tecnologia
-description: "https//gobuffalo.io/ https//gocopper.dev/"
+description: "Anotações técnicas e referências sobre Web apps in Go."
 tags:
   - notes/go
 ---
 
 # Web apps in Go
 
-https://gobuffalo.io/
-https://gocopper.dev/
+Guia prático e links selecionados sobre **Web apps in Go**.
 
----
+- [Buffalo — Go Web Development Eco-system](https://gobuffalo.io/)
+- [Copper — Go Web Toolkit](https://gocopper.dev/)

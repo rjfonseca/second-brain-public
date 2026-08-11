@@ -1,6 +1,6 @@
 ---
 title: Rodrigo Fonseca | Digital Garden
-description: "Second Brain público e notas técnicas sobre Engenharia de Software, Golang, Arquitetura e Inteligência Artificial."
+description: "Second Brain público e notas técnicas sobre Engenharia de Software, Golang, Arquitetura, Observabilidade e Inteligência Artificial."
 ---
 
 # 🌿 Rodrigo Fonseca — Digital Garden & Second Brain
@@ -9,20 +9,27 @@ Bem-vindo ao meu jardim digital público! Este espaço reúne notas permanentes,
 
 ---
 
-## 📚 Tópicos em Destaque
+## 📚 Hubs Temáticos em Destaque
 
 ### 🐹 [Golang Knowledge Hub](go/index.md)
-Um acervo completo com **23 notas técnicas** cobrindo:
-- **Mecânicas Internas:** Memory Management, Garbage Collection, Memory Arenas e Struct Padding.
-- **Performance:** Profiling com `pprof`, Benchmarks com `testing.B` e Otimizações.
-- **Padrões & SDKs:** Namespace Facade Pattern, Functional Options, Error Handling idiomático.
-- **Tooling:** Delve, Golden Files, Go Modules e Beam Go SDK.
+Conceitos de runtime, Garbage Collector, Memory Arenas, Struct Padding, Profiling com `pprof`, Benchmarks e padrões de SDKs fluentes.
+👉 **[Explorar Golang (23 notas) →](go/index.md)**
 
-👉 **[Explorar todas as notas de Go →](go/index.md)**
+### 🤖 [Inteligência Artificial & Agentes](ia/index.md)
+Arquitetura de Agentes Autônomos, Model Context Protocol (MCP), RAG (Retrieval-Augmented Generation), Structured Prompt-Driven Development (SPDD), LLM Gateways e engenharia de prompts.
+👉 **[Explorar Inteligência Artificial (18 notas) →](ia/index.md)**
+
+### 🏛️ [Arquitetura de Software & Sistemas](arquitetura/index.md)
+Domain-Driven Design (DDD), Arquitetura Hexagonal, C4 Model, Microservices, Sagas, Design Anti-Patterns, Estratégias de Resiliência e Developer Portals.
+👉 **[Explorar Arquitetura (28 notas) →](arquitetura/index.md)**
+
+### 🔭 [Observabilidade & Telemetria](observabilidade/index.md)
+Implementação de OpenTelemetry, Tracing Distribuído, Profiling Contínuo, 4 Key Metrics (DORA), Prometheus e Dashboards Críticos.
+👉 **[Explorar Observabilidade (8 notas) →](observabilidade/index.md)**
 
 ---
 
 ## 🗺️ Como este jardim é mantido
 - **Padrão OKF (Open Knowledge Format):** Notas atômicas, estruturadas e interconectadas.
 - **Motor de Renderização:** Construído com [Quartz](https://quartz.jzhao.xyz/) e publicado automaticamente via GitHub Actions.
-- **Filosofia:** Conhecimento local-first, aberto e incremental.
+- **Filosofia:** Conhecimento local-first, aberto, conectado e incremental.

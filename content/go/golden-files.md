@@ -57,5 +57,3 @@ func TestRewrite(t *testing.T) {
 It plays very nice with the new [embed](https://golang.org/pkg/embed/) feature of go 1.16.
 ## Links:
 - [This blog post](https://ieftimov.com/post/testing-in-go-golden-files/) by Ilija Eftimov
-
----

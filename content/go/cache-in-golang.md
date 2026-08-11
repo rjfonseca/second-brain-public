@@ -1,6 +1,6 @@
 ---
 type: tecnologia
-description: "This is a cache library and allows multiple backends and even chaining backends together. https//github.com/eko/gocache"
+description: "Anotações técnicas e referências sobre Cache in Golang."
 tags:
   - notes/go
 ---
@@ -11,18 +11,16 @@ tags:
 
 This is a cache library and allows multiple backends and even chaining backends together.
 
-https://github.com/eko/gocache
+- [Gocache (github.com)](https://github.com/eko/gocache)
 
 ## Go-Cache
 
 This is a simple pure go in-memory caching with TTL.
 
-https://github.com/patrickmn/go-cache
+- [Go Cache (github.com)](https://github.com/patrickmn/go-cache)
 
 ## Ristretto
 
 Golang caching lib by Dgraph.
 
-https://pkg.go.dev/github.com/dgraph-io/ristretto
-
----
+- [Ristretto (pkg.go.dev)](https://pkg.go.dev/github.com/dgraph-io/ristretto)

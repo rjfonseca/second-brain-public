@@ -53,14 +53,14 @@ Go's standard library is very comprehensive but you can find libraries in the wi
 
 Because programs are normally simple, it's more common to use toolkits. My favorite two are:
 
-- https://www.gorillatoolkit.org/
-- https://gokit.io/
+- [gorillatoolkit.org (gorillatoolkit.org)](https://www.gorillatoolkit.org/)
+- [gokit.io (gokit.io)](https://gokit.io/)
 
 But there are framework available:
 
-- https://github.com/gin-gonic/gin
-- https://gobuffalo.io/en/
-- https://beego.me/
+- [Gin (github.com)](https://github.com/gin-gonic/gin)
+- [Buffalo — Go Web Development Eco-system](https://gobuffalo.io/en/)
+- [beego.me (beego.me)](https://beego.me/)
 
 ## Tests
 Go has it's own testing framework.
@@ -122,15 +122,15 @@ Go binaries are small.
 ## How to start
 ### The official site
 The official golang site
-- https://golang.org/
+- [golang.org (golang.org)](https://golang.org/)
 - https://go.dev/ (new site)
-- https://golang.org/doc/tutorial/
+- [Tutorial (golang.org)](https://golang.org/doc/tutorial/)
 - [Learn to become a Go developer](https://roadmap.sh/golang)
 - [Effective Go - The Go Programming Language](https://go.dev/doc/effective_go)
 ### Create your gopher
-https://gopherize.me/gopher/40e0424908840e40a157d473bbf1359a7c786ad6
+- [40E0424908840E40A157D473Bbf1359A7C786Ad6 (gopherize.me)](https://gopherize.me/gopher/40e0424908840e40a157d473bbf1359a7c786ad6)
 ### Familiarize yourself with standard packages
-- https://golang.org/pkg/
+- [Pkg (golang.org)](https://golang.org/pkg/)
 ### Style guides
 - [GitHub - smallnest/go-best-practices: resources for go best practices](https://github.com/smallnest/go-best-practices)
 - [GitHub - bahlo/go-styleguide: 🏆 Opinionated Styleguide for the Go language](https://github.com/bahlo/go-styleguide)
@@ -174,5 +174,3 @@ func main() {
 [^2] https://golang.org/doc/devel/release
 
 [^1] https://golang.org/doc/devel/pre_go1
-
----

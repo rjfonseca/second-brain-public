@@ -5,6 +5,7 @@ tags:
   - notes/go
   - notes/design-pattern
 ---
+
 # Go: SDK Namespace Facade Pattern
 
 ## Visão Geral
@@ -40,4 +41,3 @@ func (c *Client) Users() *UserService {
     return &UserService{client: c}
 }
 ```
-
