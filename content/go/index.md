@@ -40,6 +40,7 @@ Bem-vindo ao acervo de anotações técnicas e arquiteturais sobre **Go (Golang)
 ---
 
 ## 🧪 4. Testes, Tooling & Ecossistema
+- [Bifrost API Gateway](bifrost-api-gateway.md) — API Gateway em Go com CloudWeGo Hertz, hot reload e extensão nativa em binário único.
 - [Golden Files](golden-files.md) — Testes de snapshot e comparação de saídas com flags de update.
 - [Delve Debugger](delve.md) — Uso do `dlv` para depuração de processos locais e containers.
 - [Go Modules](go-modules.md) — Gerenciamento declarativo de dependências no Go.
@@ -49,3 +50,4 @@ Bem-vindo ao acervo de anotações técnicas e arquiteturais sobre **Go (Golang)
 - [Web Apps in Go](web-apps-in-go.md) — Frameworks e bibliotecas para serviços web.
 - [goawk](goawk.md) — Interpretador AWK de alto desempenho implementado em Go.
 - [Golang Scripting](golang-scripting.md) — Automação de scripts com execução direta em Go.
+
