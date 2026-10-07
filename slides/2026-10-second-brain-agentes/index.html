@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>O Exocórtex do Engenheiro: Second Brain na Era dos Agentes de IA</title>
+
+    <!-- Reveal.js CDN Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reset.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/black.min.css" id="theme" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/highlight/monokai.min.css" />
+
+    <!-- Google Fonts for Editorial / Tech typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+
+    <style>
+      :root {
+        --accent-emerald: #10b981;
+        --accent-cyan: #06b6d4;
+        --accent-purple: #8b5cf6;
+        --accent-amber: #f59e0b;
+        --text-muted: #94a3b8;
+        --card-bg: rgba(30, 41, 59, 0.7);
+        --card-border: rgba(148, 163, 184, 0.15);
+      }
+
+      .reveal {
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        font-size: 24px;
+        color: #f8fafc;
+        background-color: #0b0f19;
+        background-image: 
+          radial-gradient(at 0% 0%, rgba(16, 185, 129, 0.08) 0px, transparent 50%),
+          radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.08) 0px, transparent 50%);
+      }
+
+      .reveal .slides section {
+        text-align: left;
+        box-sizing: border-box;
+        padding: 30px 45px;
+      }
+
+      /* Centraliza e dá espaçamento vertical na capa e no slide final */
+      .reveal .slides section:first-child,
+      .reveal .slides section:last-child {
+        text-align: center;
+        padding-top: 150px;
+        padding-bottom: 120px;
+      }
+
+      .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.025em;
+        text-transform: none;
+        color: #ffffff;
+      }
+
+      .reveal h1 {
+        font-size: 2.2em;
+        line-height: 1.15;
+        margin-bottom: 0.3em;
+      }
+
+      .reveal h2 {
+        font-size: 1.45em;
+        line-height: 1.2;
+        color: #f1f5f9;
+        margin-top: 0.1em;
+        margin-bottom: 0.4em;
+      }
+
+      .reveal h3 {
+        font-size: 1.05em;
+        color: var(--accent-cyan);
+        margin-bottom: 0.3em;
+      }
+
+      .reveal p, .reveal li {
+        font-size: 0.72em;
+        line-height: 1.45;
+        color: #cbd5e1;
+      }
+
+      .reveal strong {
+        color: #ffffff;
+        font-weight: 700;
+      }
+
+      .reveal code {
+        font-family: 'Fira Code', monospace;
+        color: #38bdf8;
+        background: rgba(15, 23, 42, 0.8);
+        padding: 0.15em 0.4em;
+        border-radius: 6px;
+        font-size: 0.85em;
+      }
+
+      .reveal pre {
+        background: #0f172a;
+        border: 1px solid var(--card-border);
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        width: 100%;
+        margin: 0.6em 0;
+      }
+
+      .reveal pre code {
+        padding: 0.9em 1.1em;
+        font-size: 0.65em;
+        line-height: 1.4;
+        max-height: 400px;
+        color: #e2e8f0;
+      }
+
+      .reveal blockquote {
+        background: var(--card-bg);
+        border-left: 4px solid var(--accent-emerald);
+        border-radius: 0 10px 10px 0;
+        padding: 0.6em 1em;
+        font-style: italic;
+        color: #e2e8f0;
+        width: 95%;
+        margin: 0.6em auto;
+        box-shadow: none;
+      }
+
+      .reveal ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0.4em 0;
+      }
+
+      .reveal ul li {
+        position: relative;
+        padding-left: 1.3em;
+        margin-bottom: 0.35em;
+      }
+
+      .reveal ul li::before {
+        content: "▹";
+        position: absolute;
+        left: 0;
+        color: var(--accent-emerald);
+        font-weight: bold;
+      }
+
+      .badge {
+        display: inline-block;
+        padding: 0.25em 0.7em;
+        font-size: 0.5em;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        border-radius: 9999px;
+        background: rgba(16, 185, 129, 0.15);
+        color: #34d399;
+        border: 1px solid rgba(16, 185, 129, 0.3);
+        margin-bottom: 0.4em;
+      }
+
+      .grid-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2em;
+        text-align: left;
+        margin-top: 0.5em;
+      }
+
+      .card {
+        background: var(--card-bg);
+        border: 1px solid var(--card-border);
+        border-radius: 12px;
+        padding: 0.9em 1.1em;
+      }
+
+      .card h4 {
+        margin-top: 0;
+        margin-bottom: 0.3em;
+        font-size: 0.95em;
+        color: #38bdf8;
+      }
+
+      .highlight-text {
+        color: var(--accent-emerald);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides" id="slides-container">
+        <!-- Os slides serão inseridos dinamicamente após remoção do frontmatter YAML -->
+      </div>
+    </div>
+
+    <!-- Reveal.js Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/notes/notes.min.js"></script>
+
+    <script>
+      async function initDeck() {
+        try {
+          const response = await fetch('slides.md');
+          if (!response.ok) {
+            throw new Error(`Falha ao carregar slides.md: ${response.status} ${response.statusText}`);
+          }
+          const rawMarkdown = await response.text();
+
+          // Remove o frontmatter YAML (entre os primeiros --- e ---) para não poluir a apresentação
+          const cleanMarkdown = rawMarkdown.replace(/^---[\r\n]+[\s\S]*?[\r\n]+---[\r\n]*/, '');
+
+          const container = document.getElementById('slides-container');
+          const section = document.createElement('section');
+          section.setAttribute('data-markdown', '');
+          section.setAttribute('data-separator', '^---$');
+          section.setAttribute('data-separator-vertical', '^===$');
+          section.setAttribute('data-separator-notes', '^Note:');
+
+          const scriptTag = document.createElement('script');
+          scriptTag.type = 'text/template';
+          scriptTag.textContent = cleanMarkdown;
+          section.appendChild(scriptTag);
+          container.appendChild(section);
+
+          Reveal.initialize({
+            width: 1280,
+            height: 720,
+            margin: 0.04,
+            minScale: 0.2,
+            maxScale: 2.0,
+            controls: true,
+            progress: true,
+            history: true,
+            center: false,
+            hash: true,
+            transition: 'slide',
+            transitionSpeed: 'fast',
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+          });
+        } catch (error) {
+          console.error('Erro ao inicializar o Reveal.js:', error);
+          document.getElementById('slides-container').innerHTML = `
+            <section>
+              <h2>Erro ao carregar apresentação</h2>
+              <p>${error.message}</p>
+              <p style="font-size: 0.8em; color: #94a3b8;">Certifique-se de estar servindo os arquivos via HTTP (ex: <code>python3 -m http.server</code>) para permitir o carregamento do arquivo Markdown.</p>
+            </section>
+          `;
+        }
+      }
+
+      initDeck();
+    </script>
+  </body>
+</html>
