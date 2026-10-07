@@ -1,5 +1,6 @@
 ---
 title: Rodrigo Fonseca | Digital Garden
+type: index
 description: "Second Brain público e notas técnicas sobre Engenharia de Software, Golang, Arquitetura, Observabilidade e Inteligência Artificial."
 ---
 
@@ -10,6 +11,10 @@ Bem-vindo ao meu jardim digital público! Este espaço reúne notas permanentes,
 ---
 
 ## 📚 Hubs Temáticos em Destaque
+
+### 🎤 [Palestras & Apresentações](slides.md)
+Catálogo de palestras técnicas e apresentações em slides interativos (Reveal.js) sobre Segundo Cérebro, Agentes de IA, Arquitetura e Engenharia de Software.
+👉 **[Explorar Palestras & Slides →](slides.md)**
 
 ### 🐹 [Golang Knowledge Hub](go/index.md)
 Conceitos de runtime, Garbage Collector, Memory Arenas, Struct Padding, Profiling com `pprof`, Benchmarks e padrões de SDKs fluentes.
