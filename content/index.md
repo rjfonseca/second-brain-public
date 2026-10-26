@@ -22,11 +22,15 @@ Conceitos de runtime, Garbage Collector, Memory Arenas, Struct Padding, Profilin
 
 ### 🤖 [Inteligência Artificial & Agentes](ia/index.md)
 Arquitetura de Agentes Autônomos, Model Context Protocol (MCP), RAG (Retrieval-Augmented Generation), Structured Prompt-Driven Development (SPDD), LLM Gateways e engenharia de prompts.
-👉 **[Explorar Inteligência Artificial (18 notas) →](ia/index.md)**
+👉 **[Explorar Inteligência Artificial (19 notas) →](ia/index.md)**
 
 ### 🏛️ [Arquitetura de Software & Sistemas](arquitetura/index.md)
 Domain-Driven Design (DDD), Arquitetura Hexagonal, C4 Model, Microservices, Sagas, Design Anti-Patterns, Estratégias de Resiliência e Developer Portals.
 👉 **[Explorar Arquitetura (28 notas) →](arquitetura/index.md)**
+
+### 🐧 [Infraestrutura & Linux](infra/index.md)
+Memória e desempenho no Linux: PSI, zram, slices do systemd e cgroups v2, com receitas para estações de trabalho e servidores.
+👉 **[Explorar Infraestrutura (3 notas) →](infra/index.md)**
 
 ### 🔭 [Observabilidade & Telemetria](observabilidade/index.md)
 Implementação de OpenTelemetry, Tracing Distribuído, Profiling Contínuo, 4 Key Metrics (DORA), Prometheus e Dashboards Críticos.
